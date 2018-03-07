@@ -11,10 +11,11 @@ animation-fill-mode:both;
 animation:sinusoid 3s ease infinite}
 
 .carbody{
-	width:180px;
+	width:20%;
 	margin-left:70px;
 	margin-top:200px;
 	position:absolute;
+	
 }
 .illo-apps{
 	position:absolute;
@@ -37,7 +38,7 @@ animation-delay:-.4s
 -webkit-animation-delay:-.6s;
 animation-delay:-.6s
 }
-
+}
 @-webkit-keyframes sinusoid{
 0%,50%{
 -webkit-transform:translateX(0);

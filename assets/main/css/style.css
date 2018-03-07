@@ -9,12 +9,12 @@ left:20px;
 position:absolute;
  }
  .covercontainer{
-	 border-radius:20px;
+	 border-radius:20px;border:2px solid #f97352;
  width:80%;
  margin-left:10%;
  margin-top:5%;
  height:480px;
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ box-shadow: 0 1px 20px 0 #f97352;
  transition: 0.3s;
  background-color:#fff;
  }
