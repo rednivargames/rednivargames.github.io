@@ -9,7 +9,7 @@ left:20px;
 position:absolute;
  }
  .covercontainer{
-	 border-radius:20px;border:1px gray;
+ border:1px gray;
  width:80%;
  margin-left:10%;
  margin-top:5%;
@@ -40,7 +40,7 @@ font-size: 48px;
 line-height: 62px;
 font-weight: 300;
 max-width: 80%;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 .des-text{
 margin-left:40%;
@@ -50,7 +50,7 @@ font-size: 26px;
 line-height: 50px;
 font-weight: 300;
 max-width: 80%;
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 .browse-btn{
 display: inline-block;
