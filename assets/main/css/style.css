@@ -12,11 +12,10 @@ left:20px;
 position:absolute;
  }
  .covercontainer{
- border:1px gray;
  width:80%;
  margin-left:10%;
- margin-top:5%;
- box-shadow: 0 1px 20px 0 gray;
+ margin-top:130px;
+ box-shadow: 0 1px 10px 0 gray;
  transition: 0.3s;
 }
 }
@@ -218,7 +217,7 @@ html {
 }
 @media (max-width: 767px) {
 	.covercontainer{
-		margin-top:20%;
+		margin-top:130px;
 	}
   .mbr-navbar--short .mbr-navbar__brand-link:after,
   .mbr-navbar--short .mbr-navbar__brand-img {
