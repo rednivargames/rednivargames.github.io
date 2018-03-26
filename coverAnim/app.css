@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+      .carbody {
+            display:none;
+   }
+   .character{
+	   display:none;
+   }
+   .backsprites{
+	   display:none;
+   }
+ }
+
 
 @media only screen and (max-width:1440px){
 

@@ -1,3 +1,6 @@
+
+@media only screen and (max-width:1440px){
+
 .coverback{
  position:relative;
  top:0;
@@ -13,11 +16,10 @@ position:absolute;
  width:80%;
  margin-left:10%;
  margin-top:5%;
- height:480px;
  box-shadow: 0 1px 20px 0 gray;
  transition: 0.3s;
- background-color:#fff;
- }
+}
+}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
     0%   {opacity:0;}
@@ -215,6 +217,9 @@ html {
   padding: 12px 0;
 }
 @media (max-width: 767px) {
+	.covercontainer{
+		margin-top:20%;
+	}
   .mbr-navbar--short .mbr-navbar__brand-link:after,
   .mbr-navbar--short .mbr-navbar__brand-img {
     height: 31px;
