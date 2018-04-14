@@ -35,8 +35,8 @@
 <br><br><br><br><br>
 
 <div class="asset-title-box">
-<p class="asset-path">Home> Assets><font class="asset-path" id="asset-path"></font></p>
-<p class="asset-title" id="asset-title"></p>
+<p class="asset-path">Home> Assets>Android-Homepage-UI<font class="asset-path" id="asset-path"></font></p>
+<p class="asset-title" id="asset-title">Android Homepage UI</p>
 </div>
 <br>
 <div class="row">
@@ -92,67 +92,6 @@
         </div>
     </div>
 </footer>
-
-<button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
-
-<table id="demo"></table>
-
-<script>
-
-function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-
-function loadXMLDoc() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
-    }
-  };
-  xmlhttp.open("GET", "xml_data/fup.xml", true);
-  xmlhttp.send();
-}
-function myFunction(xml) {
-  var xmlDoc = xml.responseXML;
-  var x = xmlDoc.getElementsByTagName(getCookie("assetID"))[0];
-  var title = x.getElementsByTagName('TITLE')[0].childNodes[0];
-  var des = x.getElementsByTagName('DES')[0].childNodes[0];
-  document.getElementById("asset-path").innerHTML = title.nodeValue;
-  document.getElementById("asset-title").innerHTML = title.nodeValue;
-  document.getElementById("asset-des").innerHTML = des.nodeValue;
-}
-</script>
-<input type="button" onclick="cf()">
-<hr>
-<input type="button" onclick="loadXMLDoc()">
-<p>Click the button to get the cookies associated with the current document.</p>
-
-<p id="demo2"></p><hr>
-<p id="demo1"></p>
-<script>
-function cf2(){
-	document.getElementById("demo1").innerHTML = getCookie("assetID");
-}
-
-function cf() {
-    var x = document.cookie;
-    document.getElementById("demo2").innerHTML = "Cookies associated with this document: " + x;
-}
-</script>
 
 </body>
 </html>
