@@ -17,7 +17,7 @@
 
 </head>
 <body onload="loadXMLDoc()">
-
+<img id="img" onclick="changeimage(1)" src="image.png">
 <section id="dropdown-menu-2btn-0" data-rv-view="0">
     <nav class="navbar navbar-dropdown navbar-fixed-top">
         <div class="container">
@@ -40,20 +40,35 @@
 </div>
 <br>
 <div class="row">
-
+<script>
+function changeimage(par){
+if(par == 1){
+document.getElementById("main-image").src = "resources/fup1/main-image.png";
+}else if(par == 2){
+document.getElementById("main-image").src = "resources/fup1/ss1.png";
+}else if(par == 3){
+document.getElementById("main-image").src = "resources/fup1/ss2.png";
+}else if(par == 4){
+document.getElementById("main-image").src = "resources/fup1/ss3.png";
+}
+}
+</script>
 <div class="asset-img">
-<img src="../../assets/images/unity-logo.png" width="100%" height="80%">
+<div class="asset-main-img"><img id="main-image" src="resources/fup1/main-image.png" height="100%"></div>
 
-<div class="asset-sshots">
+<div onclick="changeimage(1)"  class="asset-sshots">
+<img src="resources/fup1/main-image.png" height="100%">
 </div>
-<div class="asset-sshots">
+<div onclick="changeimage(2)" class="asset-sshots">
+<img src="resources/fup1/ss1.png" height="100%">
 </div>
-<div class="asset-sshots">
+<div onclick="changeimage(3)" class="asset-sshots">
+<img src="resources/fup1/ss2.png" height="100%">
 </div>
-<div class="asset-sshots">
+<div onclick="changeimage(4)" class="asset-sshots">
+<img src="resources/fup1/ss3.png" height="100%">
 </div>
 </div>
-
 <div class="asset-des">
 <p id="asset-des"></p>
 </div>
@@ -68,10 +83,10 @@
 
 <div class="asset-footer">
 <div class="social-media-links">
-<img src="../../assets/images/socialmedia/facebook.png" width="12%" class="social-media-btn">
-<img src="../../assets/images/socialmedia/linkedin.png" width="12%" class="social-media-btn">
+<a href="https://www.facebook.com/rednivargames/"><img src="../../assets/images/socialmedia/facebook.png" width="12%" class="social-media-btn"></a>
+<a href="https://www.linkedin.com/company/rednivar-games/"><img src="../../assets/images/socialmedia/linkedin.png" width="12%" class="social-media-btn"></a>
 <img src="../../assets/images/socialmedia/googleplus.png" width="12%" class="social-media-btn">
-<img src="../../assets/images/socialmedia/youtube.png" width="12%" class="social-media-btn"></div>
+<a href="https://www.youtube.com/channel/UCKB4mt76iLb8FHJ1sds5IqA"><img src="../../assets/images/socialmedia/youtube.png" width="12%" class="social-media-btn"></div></a>
 <div class="asset-download-box">
 <a href="#assetsection"><button class="asset-down-btn" style="background-color: #f97352;"><span>Download Now</span></button></a>
 <a href="#assetsection"><button class="asset-down-btn" style="background-color: #0DB2A0;"><span>Related Assets</span></button></a>
