@@ -18,6 +18,7 @@
 }
 
 .asset-download-box{
+	border-radius:7px;
 	background:white;
 	margin-left:3%;
 	float:left;
@@ -35,6 +36,7 @@
 	background:#f97352;
 	padding-top:10px;
 	padding-bottom:10px;
+	border-radius:7px;
 }
 
 
@@ -106,8 +108,11 @@ margin-left:6.66%;
 	padding: 10px 10px;
 	font-family:lato;
 	font-size:16px;
+	color:gray;
+	border-radius:7px;
 }
 .asset-des{
+	border-radius:7px;
 	background:white;
 	margin-left:2%;
 	float:left;
@@ -117,6 +122,7 @@ margin-left:6.66%;
 	padding: 10px 10px;
 	font-size:16px;
 	font-family:lato;
+	color:gray;
 }
 
 .asset-main-img{
@@ -127,6 +133,7 @@ height:80%;
 }
 
 .asset-img{
+	border-radius:7px;
 	background:white;
 	float:left;
 	width:30%;
