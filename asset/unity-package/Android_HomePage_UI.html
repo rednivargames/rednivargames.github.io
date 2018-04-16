@@ -28,8 +28,8 @@
   
   function assetinfo(){
   document.getElementById("asset-title").innerHTML = assetname;
-  document.getElementById("asset-path").innerHTML = "Home | Assets | "+assetname;
   document.getElementById("asset-des").innerHTML = assetdes;
+  document.getElementById("asset-path").innerHTML = "Home | Assets | "+assetname;
   document.getElementById("asset-specs").innerHTML = assetspecs;
   document.getElementById("main-image").src = image1;
   document.getElementById("image1").src = image1;
@@ -43,6 +43,29 @@
   </script>
   <title id="page-title"></title>
   <meta name="description" id="page-des" content="">
+ 
+ <style>
+.title-container {
+    position: relative;
+    color: white;
+}
+.title-text {
+    position: absolute;
+    top: 40%;
+	font-size:200%;
+	color:white;
+	font-family:lato;
+	padding-left:15%;
+}
+.title-path {
+        position: absolute;
+        top: 20%;
+	font-size:100%;
+	color:white;
+	font-family:lato;
+	padding-left:15%;
+}
+ </style>
 </head>
 <body onload="assetinfo()" bgcolor="#FCFCFC">
     <br>
@@ -62,9 +85,10 @@
 </section>
 <br><br><br><br>
 
-<div class="asset-title-box">
-<p class="asset-path" id="asset-path">Home> Assets>Asset Name</p>
-<p class="asset-title" id="asset-title">Asset Name</p>
+<div class="title-container">
+<img src="resources/shared/title-bar-back.png" style="width:100%;">
+<div class="title-path" id="asset-path">Asset path</div>
+<div class="title-text" id="asset-title">Asset Name</div>
 </div>
 <br>
 <div class="row">
@@ -124,7 +148,7 @@ document.getElementById("main-image").src = image4;
 <br><br>
 
 <div id="related-asset" class="related-asset-box">
-<p class="asset-title" id="asset-title">Related Assets</p>
+<p style="color:white;font-size: 150%;font-family:lato;" id="asset-title">Related Assets</p>
 </div>
 
 <br><br><br><br>

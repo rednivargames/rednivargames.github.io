@@ -154,28 +154,6 @@ height:80%;
 	line-height: 28px;
 }
 
-.asset-title-box{
-	width:100%;
-	padding-top:1%;
-	padding-bottom:1%;
-	padding-left:15%;
-	height:100px;
-	background:#f97352;
-	line-height: 28px;
-}
-
-.asset-title{
-	font-size:200%;
-	color:white;
-	font-family:lato;
-}
-
-.asset-path{
-	padding-left:1%;
-	color:white;
-	font-family:lato;
-}
-
  .button {
   display: inline-block;
   border-radius: 4px;
