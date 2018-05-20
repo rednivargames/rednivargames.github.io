@@ -1,0 +1,185 @@
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="../../assets/images/rednivar-logo2-128x128.png" type="image/x-icon">
+  <meta name="keywords" content="camera follow unity,unity camera follow,unity camera zoom,2D zoom,2D camera follow,2D game assets,unity assets,graphic assets,game assets,rednivar,rednivar games,ravinder,ravinder singh rathore,ravinder rathore,free unity scripts,unity scripts,scripts" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/main/css/style.css">
+  <link rel="stylesheet" href="../../assets/dropdown-menu/style.css">
+  <link rel="stylesheet" href="../../assets/main/css/mbr-additional.css" type="text/css">
+
+  <script>
+      
+  //asset info
+  var assetname = "Blocks vs Balls[Asset pack] - Unity";
+  var assetdes = "In this package you will get all the required assets for making your own block vs balls games. All the assets are free to use and without any copyright issue.";
+  var assetspecs = "Features : <ul><li>High Quality graphics.</li><li>Less size.</li><li>Pure Vector.</li><li>Easy to use.</li><li>PNG format.</ul>";
+  var image1 = "resources/fup3/main-image.png";
+  var image2 = "resources/fup3/ss1.png";
+  var image3 = "resources/fup3/ss2.png";
+  var image4 = "resources/fup3/ss3.png";
+  var assetdownlink = "https://firebasestorage.googleapis.com/v0/b/rednivargameswebsite.appspot.com/o/website-data%2FfreeProjects%2FBlocks%20Vs.%20Balls%5BAssets%5D.rar?alt=media&token=f1ccc697-8d5d-4dc2-9569-bf872ffdf133";
+  
+  //meta data
+  var pagetitle = "Blocks vs Balls[Asset Pack] - Unity | Rednivar Games | Free game assets.";
+  
+  function assetinfo(){
+  document.getElementById("asset-title").innerHTML = assetname;
+  document.getElementById("asset-des").innerHTML = assetdes;
+  document.getElementById("asset-path").innerHTML = "Home | Assets | "+assetname;
+  document.getElementById("asset-specs").innerHTML = assetspecs;
+  document.getElementById("main-image").src = image1;
+  document.getElementById("image1").src = image1;
+  document.getElementById("image2").src = image2;
+  document.getElementById("image3").src = image3;
+  document.getElementById("image4").src = image4;
+  document.getElementById("down-link").href = assetdownlink;
+  document.getElementById("page-title").innerHTML = pagetitle;
+  document.getElementById("page-des").content = assetdes;
+  }
+  </script>
+  <title id="page-title"></title>
+  <meta name="description" id="page-des" content="">
+ 
+ <style>
+.title-container {
+    position: relative;
+    color: white;
+}
+.title-cont-img{
+height:100px;
+width:100%;
+}
+.title-text {
+    position: absolute;
+    top: 40%;
+	font-size:200%;
+	color:white;
+	font-family:lato;
+	padding-left:15%;
+}
+.title-path {
+        position: absolute;
+        top: 20%;
+	font-size:100%;
+	color:white;
+	font-family:lato;
+	padding-left:15%;
+}
+@media (max-width: 767px){
+.title-path{
+font-size:70%;
+}
+.title-text{
+font-size:90%;
+}
+.title-cont-img{
+height:60px;
+}
+}
+ </style>
+</head>
+<body onload="assetinfo()" bgcolor="#FCFCFC">
+    <br>
+<section id="dropdown-menu-2btn-0" data-rv-view="0">
+    <nav class="navbar navbar-dropdown navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="../../index.html" class="navbar-logo"><img src="../../assets/images/rednivar-logo2-128x128.png"></a>
+                <a style="font-size:15px;">RedNivar Games</a>
+            </div>
+            <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                <div class="hamburger-icon"></div>
+            </button>
+            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar"><li class="nav-item nav-btn"><a class="nav-link btn btn-default btn-default-outline" href="../../index.html">Home</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-default btn-default-outline" href="../../index.html">Asset Store</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-default btn-default-outline" href="../../tutorials.html">Tutorials<br></a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-default btn-default-outline" href="../../contact-us.html">Contact Us</a></li></ul>
+        </div>
+    </nav>
+</section>
+<br><br><br>
+<br>
+<div class="title-container">
+<img src="resources/shared/title-bar-back.png" class="title-cont-img">
+<div class="title-path" id="asset-path">Asset path</div>
+<div class="title-text" id="asset-title">Asset Name</div>
+</div>
+<br>
+<div class="row">
+<script>
+function changeimage(par){
+if(par === 1){
+document.getElementById("main-image").src = image1;
+}else if(par === 2){
+document.getElementById("main-image").src = image2;
+}else if(par === 3){
+document.getElementById("main-image").src = image3;
+}else if(par === 4){
+document.getElementById("main-image").src = image4;
+}
+}
+</script>
+<div class="asset-img">
+<div class="asset-main-img"><img id="main-image" src="" height="100%"></div>
+
+<div onclick="changeimage(1)"  class="asset-sshots">
+<img id="image1" src="" height="100%">
+</div>
+<div onclick="changeimage(2)" class="asset-sshots">
+<img id="image2" src="" height="100%">
+</div>
+<div onclick="changeimage(3)" class="asset-sshots">
+<img id="image3" src="" height="100%">
+</div>
+<div onclick="changeimage(4)" class="asset-sshots">
+<img id="image4" src="" height="100%">
+</div>
+</div>
+<div class="asset-des">
+<p id="asset-des">Description.</p>
+</div>
+<div class="asset-specs">
+<p class="asset-feat" id="asset-specs"></p>
+</div>
+
+
+
+
+</div>
+
+<div class="asset-footer">
+<div class="social-media-links">
+<a href="https://www.facebook.com/rednivargames/"><img src="../../assets/images/socialmedia/facebook.png" width="12%" class="social-media-btn"></a>
+<a href="https://www.linkedin.com/company/rednivar-games/"><img src="../../assets/images/socialmedia/linkedin.png" width="12%" class="social-media-btn"></a>
+<a href="https://plus.google.com/109556501159032204920"><img src="../../assets/images/socialmedia/googleplus.png" width="12%" class="social-media-btn"></a>
+<a href="https://www.youtube.com/channel/UCKB4mt76iLb8FHJ1sds5IqA"><img src="../../assets/images/socialmedia/youtube.png" width="12%" class="social-media-btn"></div></a>
+<div class="asset-download-box">
+<a id="down-link" href=""><button class="asset-down-btn" style="background-color: #f97352;"><span>Download Now</span></button></a>
+<a href="../../index.html"><button class="asset-down-btn" style="background-color: #0DB2A0;"><span>Browse More</span></button></a>
+</div>
+</div>
+
+<br><br>
+<!--
+<div id="related-asset" class="related-asset-box">
+<p style="color:white;font-size: 150%;font-family:lato;" id="asset-title">Related Assets</p>
+</div>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+-->
+<footer class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-parallax-background" id="footer1-8" data-rv-view="2" style="background-image: url(assets/images/bg3.jpg);">
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(68, 68, 68);"></div>
+    <div class="mbr-section__container container">
+        <div class="mbr-footer mbr-footer--wysiwyg row" style="padding-top: 36.9px; padding-bottom: 36.9px;">
+            <div class="col-sm-12">
+                <p class="mbr-footer__copyright">Copyright (c) 2018 RedNivar Games</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
