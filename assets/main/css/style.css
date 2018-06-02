@@ -1,5 +1,37 @@
 
 @media only screen and (max-width:1440px){
+/* Contact page style */
+.contactbutton{
+	border: 1px solid #f97352;
+	background-color:#f97352;
+	color:white;
+	width:300px;
+	border-radius:3px;
+	padding: 10px 15px;
+	margin: 0 auto 10px auto;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.contactinput{
+	border: 2px solid #f97352;
+	width:400px;
+	border-radius:3px;
+	padding: 10px 15px;
+	margin: 0 auto 10px auto;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	transition-duration: 0.25s;
+	font-weight: 300;
+}	
+.contactinput:focus{
+	width:450px;
+}
+	
+	
 .row{
 	margin:0px;
 }
